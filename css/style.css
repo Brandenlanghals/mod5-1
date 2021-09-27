@@ -73,7 +73,7 @@
     =========================================*/
     body {
       font-family: arial;
-      background-color: #eee;
+      background-color: rgb(255, 255, 255);
       background-image: url(../img/ocean.jpg);
       background-repeat: no-repeat;
       background-size: cover;
@@ -83,8 +83,8 @@
     .container {
       width: 80%;
       margin: 0 auto;
-      background-color: #eee;
-      box-shadow: 0px 5px 10px rgb(23, 164, 206);
+      background-color: rgb(93, 175, 181);
+      box-shadow: 0px 5px 30px rgb(36, 233, 255);
       padding: 30px;
     }
 
