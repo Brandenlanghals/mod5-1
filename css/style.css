@@ -1,0 +1,94 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  #hero {
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/baluga3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center 10%;
+  }
+
+  #balugaimg {
+    float:right;
+    width: 300px;
+    height: auto;
+  }
+
+  #balugaimg2 {
+    float:left;
+    width: 300px;
+    height: auto;
+    transform: rotate(-3deg);
+    transition: 2s all;
+  }
+
+  #balugaimg2:hover{
+    width: 300px;
+    transform: rotate(1080deg);
+  }
+
+  .left{
+    float:left;
+  }
+
+  .right {
+    float:right; 
+  }
+
+  .clear {
+    clear:both;
+  }
+
+
+/*=========================================
+    Main Styles
+    =========================================*/
+    body {
+      font-family: arial;
+      background-color: #eee;
+      background-image: url(../img/ocean.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #eee;
+      box-shadow: 0px 5px 10px rgb(23, 164, 206);
+      padding: 30px;
+    }
+
+    footer {
+      padding-top: 50px;
+      text-align: center;
+    }
